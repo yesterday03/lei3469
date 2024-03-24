@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTitleView" >
+        //自定义属性
+        <attr name="tvLeftTitle" format="string"/>
+        <attr name="tvTitle" format="string"/>
+        <attr name="tvRightTitle" format="string"/>
+
+        <attr name="tvTitleColor" format="color"/>
+        <attr name="tvLeftTitleColor" format="color"/>
+        <attr name="tvRightTitleColor" format="color"/>
+
+        <attr name="tvLeftTitleSize" format="dimension"/>
+        <attr name="tvTitleSize" format="string"/>
+        <attr name="tvRightTitleSize" format="string"/>
+
+        <attr name="ivRight" format="reference"/>
+        <attr name="ivBack" format="reference"/>
+
+        <attr name="ivBackMarginBottom" format="dimension"/>
+        <attr name="ivBackMarginLeft" format="dimension"/>
+        <attr name="TvLeftTitleMarginLeft" format="dimension"/>
+        <attr name="ivRightMarginRight" format="dimension"/>
+    </declare-styleable>
+</resources>
